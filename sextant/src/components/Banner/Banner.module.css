@@ -1,0 +1,11 @@
+.wrapper {
+    background: var(--color-primary);
+    height: var(--banner-height);
+    padding: 20px 28px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper h1 {
+    color: var(--color-white);
+}
