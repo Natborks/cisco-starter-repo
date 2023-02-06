@@ -16,10 +16,11 @@ function Metric({ url, ipv6 = false }) {
 
   const title = ipv6 ? "User Ip (v6)" : "User Ip (v4)";
   return (
-    <article className={styles.wrapper}>
-      <h1>{title}</h1>
-      <p>{ip}</p>
-    </article>
+    // <article className={styles.wrapper}>
+    //   <h1>{title}</h1>
+    //   <p>{ip}</p>
+    // </article>
+    <p>{ip}</p>
   );
 }
 
